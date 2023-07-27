@@ -7,7 +7,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/demonph10/MGCN">
-    <img src="image/logo.svg" alt="Logo" width="80" height="80">
+    <img src="image/logo.svg" alt="Logo" width="300" height="300">
   </a>
 </div>
 
@@ -16,7 +16,7 @@
 This is the Pytorch implementation for our MM 2023 paper:
 
 >MM 2023. Penghang Yu, Zhiyi Tan, Guanming Lu, Bing-Kun Bao(2023). Multi-View Graph Convolutional Network for Multimedia Recommendation
-<img src="image/framework.png" width="804px" height="306px"/>
+<img src="image/framework.png" width="900px" height="306px"/>
 
 ## Enviroment Requirement
 - python 3.8
