@@ -7,7 +7,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/demonph10/MGCN">
-    <img src="image/logo.svg" alt="Logo" width="300" height="300">
+    <img src="image/logo.png" alt="Logo" width="400" height="100">
   </a>
 </div>
 
@@ -28,17 +28,16 @@ We provide three processed datasets: Baby, Sports and Clothing.
 
 Download from Google Drive: [Baby/Sports/Clothing](https://drive.google.com/file/d/1tpP-IQtUubSlVvYpkA61bffPKkhvT62T/view?usp=drive_link)
 
-* Please move your downloaded data into this dir for model training.
-
 ## Training
   ```
   cd ./src
   python main.py
   ```
+## Performance Comparison
+<img src="image/result.png" width="900px" height="380px"/>
 
 ## Citing MGCN
-If you find MGCN useful in your research, please consider citing our paper:
-***
+If you find MGCN useful in your research, please consider citing our paper.
 
 The code is released for academic research use only. For commercial use, please contact [Penghang Yu](y463213402@gmail.com).
 
