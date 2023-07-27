@@ -1,16 +1,15 @@
 # coding: utf-8
-# @email: enoche.chow@gmail.com
+# @email: y463213402@gmail.com
 r"""
-LATTICE
+MGCN
 ################################################
 Reference:
-    https://github.com/CRIPAC-DIG/LATTICE
-    ACM MM'2021: [Mining Latent Structures for Multimedia Recommendation]
-    https://arxiv.org/abs/2104.09036
+    https://github.com/demonph10/MGCN
+    ACM MM'2023: [Multi-View Graph Convolutional Network for Multimedia Recommendation]
+    https://arxiv.org/***
 """
 
 import os
-import random
 import numpy as np
 import scipy.sparse as sp
 import torch
@@ -18,9 +17,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 
 from common.abstract_recommender import GeneralRecommender
-from common.loss import BPRLoss, EmbLoss, L2Loss
 from utils.utils import build_sim, compute_normalized_laplacian, build_knn_neighbourhood, build_knn_normalized_graph
-from torch.nn.functional import cosine_similarity
 
 
 class MGCN(GeneralRecommender):
@@ -77,15 +74,13 @@ class MGCN(GeneralRecommender):
         if self.t_feat is not None:
             self.text_trs = nn.Linear(self.t_feat.shape[1], self.embedding_dim)
 
-        self.softmax = nn.Softmax(dim=0)
+        self.softmax = nn.Softmax(dim=-1)
 
         self.query_common = nn.Sequential(
             nn.Linear(self.embedding_dim, self.embedding_dim),
             nn.Tanh(),
             nn.Linear(self.embedding_dim, 1, bias=False)
         )
-
-        self.query_fusion = nn.Linear(self.embedding_dim, 1, bias=False)
 
         self.gate_v = nn.Sequential(
             nn.Linear(self.embedding_dim, self.embedding_dim),

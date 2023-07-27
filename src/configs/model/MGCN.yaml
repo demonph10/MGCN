@@ -1,5 +1,5 @@
 embedding_size: 64
-n_ui_layers: [2]
+n_ui_layers: 2
 n_layers: 1
 
 learning_rate_scheduler: [0.96, 50]
@@ -10,6 +10,6 @@ knn_k: 10
 
 learning_rate: 0.001
 
-cl_loss: 0.01
+cl_loss: [0.001,0.01,0.1]
 
-hyper_parameters: ["n_ui_layers"]
+hyper_parameters: ["cl_loss"]

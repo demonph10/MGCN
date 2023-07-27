@@ -1,6 +1,7 @@
+## Dataset
 
-## Data
-Download from Google Drive: [Baby/Sports/Elec](https://drive.google.com/drive/folders/13cBy1EA_saTUuXxVllKgtfci2A09jyaG?usp=sharing)
-The data already contains text and image features extracted from Sentence-Transformers and CNN.
+We provide three processed datasets: Baby, Sports and Clothing.
+
+Download from Google Drive: [Baby/Sports/Clothing](https://drive.google.com/file/d/1tpP-IQtUubSlVvYpkA61bffPKkhvT62T/view?usp=drive_link)
 
 * Please move your downloaded data into this dir for model training.
