@@ -37,7 +37,7 @@ Download from Google Drive: [Baby/Sports/Clothing](https://drive.google.com/file
 <img src="image/result.png" width="900px" height="380px"/>
 
 ## Citing MGCN
-If you find MGCN useful in your research, please consider citing our paper.
+If you find MGCN useful in your research, please consider citing our [paper](https://arxiv.org/abs/2308.03588).
 
 The code is released for academic research use only. For commercial use, please contact [Penghang Yu](y463213402@gmail.com).
 
