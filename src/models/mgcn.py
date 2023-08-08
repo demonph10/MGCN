@@ -6,7 +6,7 @@ MGCN
 Reference:
     https://github.com/demonph10/MGCN
     ACM MM'2023: [Multi-View Graph Convolutional Network for Multimedia Recommendation]
-    https://arxiv.org/***
+    https://arxiv.org/abs/2308.03588
 """
 
 import os
