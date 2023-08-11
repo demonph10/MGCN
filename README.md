@@ -38,7 +38,14 @@ Download from Google Drive: [Baby/Sports/Clothing](https://drive.google.com/file
 
 ## Citing MGCN
 If you find MGCN useful in your research, please consider citing our [paper](https://arxiv.org/abs/2308.03588).
-
+```
+@article{yu2023multi,
+  title={Multi-View Graph Convolutional Network for Multimedia Recommendation},
+  author={Yu, Penghang and Tan, Zhiyi and Lu, Guanming and Bao, Bing-Kun},
+  journal={arXiv preprint arXiv:2308.03588},
+  year={2023}
+}
+```
 The code is released for academic research use only. For commercial use, please contact [Penghang Yu](y463213402@gmail.com).
 
 
