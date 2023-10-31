@@ -39,7 +39,8 @@ If you find MGCN useful in your research, please consider citing our [paper](htt
 @article{yu2023multi,
   title={Multi-View Graph Convolutional Network for Multimedia Recommendation},
   author={Yu, Penghang and Tan, Zhiyi and Lu, Guanming and Bao, Bing-Kun},
-  journal={arXiv preprint arXiv:2308.03588},
+  booktitle={Proceedings of the 31st ACM International Conference on Multimedia},
+  pages = {6576–6585},
   year={2023}
 }
 ```
