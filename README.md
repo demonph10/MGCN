@@ -15,6 +15,17 @@ This is the Pytorch implementation for our MM 2023 paper:
 >MM 2023. Penghang Yu, Zhiyi Tan, Guanming Lu, Bing-Kun Bao(2023). Multi-View Graph Convolutional Network for Multimedia Recommendation
 <img src="image/framework.png" width="900px" height="306px"/>
 
+## News! Our Latest work
+[AAAI 2025 Oral]
+
+We propose a Principal Graph Learning (PGL) method for multimedia recommendation, achieving state-of-the-art performance. 
+
+[Paper Link](https://ojs.aaai.org/index.php/AAAI/article/view/33429) [Code Link](https://github.com/demonph10/PGL)
+
+Compared to MGCN, PGL delivers over 7% performance improvement.
+
+We appreciate your interest and welcome feedback on our latest work!
+
 ## Enviroment Requirement
 - python 3.8
 - Pytorch 1.12
